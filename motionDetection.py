@@ -50,7 +50,8 @@ while video.isOpened():
     ret, frame2 = video.read()
 
     key = cv2.waitKey(1)
-
+    
+    #Pressing the 'Q' key immediately closes the video window
     if key == ord('q'):
         break
 
